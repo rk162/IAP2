@@ -12898,13 +12898,15 @@ __webpack_require__(4)
 
 // tooltip and popover require javascript side modification to enable them (new in Bootstrap 4)
 // use tooltip and popover components everywhere
-$(function (){
-  $('[data-toggle="tooltip"]').tooltip()
-  $('[data-toggle="popover"]').popover()
-})
-
+// $(function() {
+//     $('[data-toggle="tooltip"]').tooltip()
+//     $('[data-toggle="popover"]').popover()
+// })
+// $(document).ready.alert('hello');
+$("button").click(function() {
+    alert("The paragraph was clicked.");
+});
 // Your code here....
-
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),

@@ -6030,7 +6030,7 @@ html {
   font-size: 10px; }
 
 body {
-  background-color: #7e8000; }
+  background-color: #ffffff; }
 
 h1 {
   font-size: 20px; }
@@ -6062,7 +6062,7 @@ h3 {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  color: #4c4d00; }
+  color: #e6e6e6; }
 
 nav, header h1 {
   font-size: 14px;
@@ -6081,7 +6081,7 @@ nav, header h1 {
 header h1 {
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Share',cursive;
+  font-family: 'Share', cursive;
   font-color: Blue; }
 
 footer {
@@ -6105,7 +6105,8 @@ footer {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   padding: 5px; }
-  #contact-form input[type=textbox], #contact-form textarea {
+  #contact-form input[type=textbox],
+  #contact-form textarea {
     font-family: 'Open sans',Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     background: #ffffe0;
@@ -6115,3 +6116,9 @@ footer {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; }
+
+button {
+  background-color: red; }
+
+h1 {
+  color: red !important; }
