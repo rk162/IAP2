@@ -41,6 +41,11 @@ module.exports = {
             jQuery: "jquery", // Used for Bootstrap JavaScript components
             Popper: ['popper.js', 'default'] // Used for Bootstrap dropdown, popup and tooltip JavaScript components
         }),
+        // new webpack.optimize.CommonsChunkPlugin({
+        //     // async: true, 
+        //     children: true, 
+        //      filename: "commonlazy.js" 
+        //   }),
         extractSass
     ]
 };

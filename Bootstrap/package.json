@@ -9,6 +9,7 @@
         "bootstrap": "^4.0.0",
         "bootstrap-sass": "^3.3.7",
         "chunk": "0.0.2",
+        "ejs-locals": "^1.0.2",
         "express": "^4.16.2",
         "extract-text-webpack-plugin": "^3.0.2",
         "jquery": "^3.3.1",

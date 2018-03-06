@@ -1,8 +1,10 @@
 // Bootstrap dependencies
 
-window.$ = window.jQuery = require('jquery') // required for bootstrap
-window.Popper = require('popper.js') // required for tooltip, popup...
-require('bootstrap')
+// window.$ = window.jQuery = require('jquery'); // required for bootstrap
+// import $ from "jquery"
+// window.Popper = require('popper.js'); // required for tooltip, popup...
+// import Popper from "popper.js"
+import Bootstrap from "bootstrap"
 
 import '../scss/main.scss' // include bootstrap css file with own modifications
 
